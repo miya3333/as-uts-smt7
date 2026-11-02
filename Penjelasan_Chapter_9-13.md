@@ -505,19 +505,19 @@ BeautifulSoup membantu mengambil teks bersih dari string yang mungkin masih meng
 | 13 | Web Scraping | `scrape_gramedia_catalog()` | 236–369 |
 | 13 | Web Scraping | Penggunaan BeautifulSoup | 172–174 |
 
-## Contoh penjelasan singkat saat presentasi
+## Penjelasan singkat
 
-**Chapter 9:** "Kami menggunakan Regex untuk membersihkan harga, merapikan teks, mengambil ISBN-13 dari URL gambar, dan memvalidasi format URL. Tujuannya agar data yang masuk ke CSV lebih terstruktur."
+**Chapter 9:** Menggunakan Regex untuk membersihkan harga, merapikan teks, mengambil ISBN-13 dari URL gambar, dan memvalidasi format URL. Tujuannya agar data yang masuk ke CSV lebih terstruktur.
 
-**Chapter 10:** "Kami menyimpan respons API mentah ke TXT, data buku yang sudah dibersihkan ke CSV, dan ringkasan statistik ke laporan TXT. Proses penulisan menggunakan `open()` dan `csv.DictWriter`."
+**Chapter 10:** Menyimpan respons API mentah ke TXT, data buku yang sudah dibersihkan ke CSV, dan ringkasan statistik ke laporan TXT. Proses penulisan menggunakan `open()` dan `csv.DictWriter`.
 
-**Chapter 11:** "Kami menggunakan `pathlib` untuk membuat folder data, output, dan backup secara otomatis. Kemudian, `zipfile` digunakan untuk mengompresi isi folder output menjadi arsip ZIP."
+**Chapter 11:** Menggunakan `pathlib` untuk membuat folder data, output, dan backup secara otomatis. Kemudian, `zipfile` digunakan untuk mengompresi isi folder output menjadi arsip ZIP.
 
-**Chapter 12:** "Kami menggunakan `argparse` agar pengguna dapat mengatur URL, keyword, jumlah data, nama output, dan opsi backup langsung dari terminal."
+**Chapter 12:** Menggunakan `argparse` agar pengguna dapat mengatur URL, keyword, jumlah data, nama output, dan opsi backup langsung dari terminal.
 
-**Chapter 13:** "Kami menggunakan Requests untuk mengambil data katalog dari API Gramedia. Data JSON diproses dengan pagination, kemudian teks dibersihkan menggunakan BeautifulSoup dan Regex sebelum disimpan."
+**Chapter 13:** Menggunakan Requests untuk mengambil data katalog dari API Gramedia. Data JSON diproses dengan pagination, kemudian teks dibersihkan menggunakan BeautifulSoup dan Regex sebelum disimpan.
 
-## Catatan agar penjelasan tetap sesuai kode
+## Catatan
 
 1. Program mengambil data dari endpoint API katalog Gramedia, bukan mengotomatisasi klik pada browser.
 2. BeautifulSoup digunakan untuk membersihkan kemungkinan markup HTML pada teks, sedangkan pengambilan katalog dilakukan melalui Requests dan API JSON.
