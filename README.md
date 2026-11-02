@@ -8,7 +8,7 @@
 **Kelompok:** Gak Tahu
 
 | No. | Nama Anggota     | NIM       |
-| --: | ---------------- | --------- |
+| :--: | ---------------- | --------- |
 |   1 | Andrian Lusmana  | 312310199 |
 |   2 | Aldi Hermansyah  | 312310200 |
 |   3 | Dzikry Eza Yusuf | 312310731 |
