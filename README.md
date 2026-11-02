@@ -132,6 +132,6 @@ Kolom dataset CSV:
 
 Nilai pada `format_kategori` mengikuti informasi format atau kategori yang tersedia dari sumber API.
 
-## Penanganan Kesalahan
+---
 
-Program memiliki penanganan untuk kegagalan koneksi, timeout, kesalahan HTTP, respons JSON yang tidak valid, data kosong, input limit yang tidak valid, serta kesalahan operasi file saat penyimpanan.
+Berikut adalah penjelasan mengenai chapter 9-13 yang bisa diakses melalui [Penjelasan_Chapter_9-13.md](Penjelasan_Chapter_9-13.md)
